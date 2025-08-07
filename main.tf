@@ -9,7 +9,7 @@ terraform {
 
 provider "docker" {}
 
-# Pulling the latest nginx image
+# Pulling the latest nginx image.
 resource "docker_image" "nginx" {
   name = "nginx:latest"
 }
